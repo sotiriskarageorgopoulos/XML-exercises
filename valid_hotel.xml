@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Hotel SYSTEM "./DTDs/hotel.dtd" []>
+<Hotel nameOfHotel="Thanos Village" stars="4">
+    <Rooms>
+        <Room idRoom="R1">
+            <nameOfRoom suite="no" floor="3" wifi="yes">Odysseus</nameOfRoom>
+            <capacity numOfPersons="4" />
+            <typesOfBeds>
+                <single>2</single>
+                <twin>1</twin>
+            </typesOfBeds>
+            <view>Sea</view>
+            <view>Mountain</view>
+            <comforts>
+                <comfort extra_charge="yes">Heating</comfort>
+                <comfort>Breakfast</comfort>
+            </comforts>
+            <prices>
+            </prices>
+        </Room>
+        <Room idRoom="R2">
+            <nameOfRoom suite="yes" floor="4" wifi="yes">Priapos</nameOfRoom>
+            <capacity numOfPersons="2" />
+            <typesOfBeds>
+                <twin>1</twin>
+                <couch>2</couch>
+            </typesOfBeds>
+            <view>Sea</view>
+            <view>Mountain</view>
+            <comforts>
+                <comfort extra_charge="yes">Heating</comfort>
+                <comfort>Breakfast</comfort>
+                <comfort extra_charge="yes">Mini Bar</comfort>
+            </comforts>
+            <prices>
+                <price period="High Season">90</price>
+                <price period="Medium Season">65</price>
+            </prices>
+        </Room>
+        <Room idRoom="R3">
+            <nameOfRoom suite="no" floor="1" wifi="yes">Estia</nameOfRoom>
+            <capacity numOfPersons="4" />
+            <typesOfBeds>
+                <single>1</single>
+                <twinXL>1</twinXL>
+                <couch>1</couch>
+            </typesOfBeds>
+            <view>Sea</view>
+            <comforts>
+                <comfort extra_charge="yes">Heating</comfort>
+                <comfort>Breakfast</comfort>
+                <comfort>Mini Bar</comfort>
+                <comfort extra_charge="yes">Dinner</comfort>
+            </comforts>
+            <prices>
+                <price period="High Season">70</price>
+                <price period="Medium Season">50</price>
+            </prices>
+        </Room>
+        <Room idRoom="R4">
+            <nameOfRoom suite="no" floor="2" wifi="yes">Deus</nameOfRoom>
+            <capacity numOfPersons="4" />
+            <typesOfBeds>
+                <twin>2</twin>
+                <couch>1</couch>
+            </typesOfBeds>
+            <view>Sea</view>
+            <comforts>
+                <comfort extra_charge="yes">Heating</comfort>
+                <comfort>Breakfast</comfort>
+                <comfort>Mini Bar</comfort>
+                <comfort extra_charge="yes">Dinner</comfort>
+            </comforts>
+            <prices>
+                <price period="High Season">80</price>
+                <price period="Medium Season">65</price>
+            </prices>
+        </Room>
+        <Room idRoom="R5">
+            <nameOfRoom suite="yes" floor="3" wifi="yes">Yra</nameOfRoom>
+            <capacity numOfPersons="1" />
+            <typesOfBeds>
+                <single>1</single>
+                <couch>1</couch>
+            </typesOfBeds>
+            <view>Sea</view>
+            <view>Mountain</view>
+            <comforts>
+                <comfort extra_charge="yes">Heating</comfort>
+                <comfort extra_charge="no">Breakfast</comfort>
+                <comfort extra_charge="no">Mini Bar</comfort>
+                <comfort extra_charge="no">Afternoon Coffee</comfort>
+            </comforts>
+            <prices>
+                <price period="High Season">60</price>
+                <price period="Medium Season">45</price>
+            </prices>
+        </Room>
+        <Room idRoom="R6">
+            <nameOfRoom suite="yes" floor="5" wifi="yes">Aphrodite</nameOfRoom>
+            <capacity numOfPersons="2" />
+            <typesOfBeds>
+                <twin>1</twin>
+                <couch>1</couch>
+            </typesOfBeds>
+            <view>Sea</view>
+            <view>Mountain</view>
+            <comforts>
+                <comfort extra_charge="yes">Heating</comfort>
+                <comfort>Breakfast</comfort>
+                <comfort extra_charge="yes">Mini Bar</comfort>
+                <comfort>Afternoon Coffee</comfort>
+            </comforts>
+            <prices>
+                <price period="High Season">90</price>
+                <price period="Medium Season">75</price>
+                <price period="Low Season">45</price>
+            </prices>
+        </Room>
+    </Rooms>
+    <Offers>
+        <offer rooms_code="R1" offer_price="50">
+            <duration time_period="4" from="2020-07-02" to="2020-07-06" />
+        </offer>
+        <offer rooms_code="R2 R3" offer_price="60">
+            <duration time_period="6" from="2020-08-04" to="2020-07-10" />
+        </offer>
+        <offer rooms_code="R5" offer_price="45">
+            <duration time_period="2" from="2020-06-18" to="2020-06-20" />
+        </offer>
+        <offer rooms_code="R6" offer_price="65">
+            <duration time_period="11" from="2020-06-02" to="2020-06-13" />
+        </offer>
+    </Offers>
+</Hotel>

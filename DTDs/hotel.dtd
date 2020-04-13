@@ -1,0 +1,33 @@
+<!ELEMENT Hotel (Rooms,Offers)>
+<!ELEMENT Rooms (Room+)>
+<!ELEMENT Room (nameOfRoom,capacity,typesOfBeds,view+,comforts,prices)>
+<!ELEMENT typesOfBeds (single?,twin?,twinXL?,couch?)>
+<!ELEMENT comforts (comfort*)>
+<!ELEMENT prices (price*)>
+<!ELEMENT nameOfRoom (#PCDATA)>
+<!ELEMENT capacity EMPTY>
+<!ELEMENT single (#PCDATA)>
+<!ELEMENT twin (#PCDATA)>
+<!ELEMENT twinXL (#PCDATA)>
+<!ELEMENT couch (#PCDATA)>
+<!ELEMENT view (#PCDATA)>
+<!ELEMENT comfort (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT Offers (offer)*>
+<!ELEMENT offer (duration)>
+<!ELEMENT duration EMPTY>
+<!ATTLIST capacity numOfPersons (1|2|3|4) #REQUIRED>
+<!ATTLIST duration time_period CDATA #REQUIRED
+                       from CDATA #REQUIRED
+                       to CDATA #REQUIRED>
+<!ATTLIST offer rooms_code IDREFS #REQUIRED
+                offer_price CDATA #REQUIRED
+                >
+<!ATTLIST Hotel nameOfHotel CDATA #REQUIRED
+                stars CDATA #REQUIRED>
+<!ATTLIST Room idRoom ID #REQUIRED>
+<!ATTLIST nameOfRoom suite (yes|no) #IMPLIED
+                     floor CDATA #IMPLIED
+                     wifi (yes|no) "yes">
+<!ATTLIST comfort extra_charge (yes|no) "no">
+<!ATTLIST price period CDATA #REQUIRED>
