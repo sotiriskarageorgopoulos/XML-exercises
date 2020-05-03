@@ -121,17 +121,17 @@
             <equip idBasicEquip="B47">(23) Βελούδινα ταπέτα</equip>
         </basic_equipment>
         <executive_equip>
-            <exec_equip idExecEquip="Ε1">(1) Αυτόματο κιβώτιο 7 σχέσεων</exec_equip>
-            <exec_equip idExecEquip="Ε2">(2) Μεταλλικό χρώμα</exec_equip>
-            <exec_equip idExecEquip="Ε3">(3) Ζάντες ελαφρού κράματος 17’’</exec_equip>
-            <exec_equip idExecEquip="Ε4">(4) Ράγες οροφής</exec_equip>
-            <exec_equip idExecEquip="Ε5">(5) Αυτόματος διζωνικός κλιματισμός</exec_equip>
-            <exec_equip idExecEquip="Ε6">(6) Αισθητήρες παρκαρίσματος πίσω</exec_equip>
-            <exec_equip idExecEquip="Ε7">(7) Πακέτο φωτισμού</exec_equip>
-            <exec_equip idExecEquip="Ε8">(8)Προβολείς ομίχλης LED</exec_equip>
-            <exec_equip idExecEquip="Ε9">(9) Σύστημα πλοήγησης ΜΙΝΙ</exec_equip>
-            <exec_equip idExecEquip="Ε10">(10) Apple CarPlay</exec_equip>
-            <exec_equip idExecEquip="Ε11">(11) Χρώμα οροφής σε μαύρο, ασημί, λευκό ή στο χρώμα του αμαξώματος
+            <exec_equip idExecEquip="E1">(1) Αυτόματο κιβώτιο 7 σχέσεων</exec_equip>
+            <exec_equip idExecEquip="E2">(2) Μεταλλικό χρώμα</exec_equip>
+            <exec_equip idExecEquip="E3">(3) Ζάντες ελαφρού κράματος 17’’</exec_equip>
+            <exec_equip idExecEquip="E4">(4) Ράγες οροφής</exec_equip>
+            <exec_equip idExecEquip="E5">(5) Αυτόματος διζωνικός κλιματισμός</exec_equip>
+            <exec_equip idExecEquip="E6">(6) Αισθητήρες παρκαρίσματος πίσω</exec_equip>
+            <exec_equip idExecEquip="E7">(7) Πακέτο φωτισμού</exec_equip>
+            <exec_equip idExecEquip="E8">(8)Προβολείς ομίχλης LED</exec_equip>
+            <exec_equip idExecEquip="E9">(9) Σύστημα πλοήγησης ΜΙΝΙ</exec_equip>
+            <exec_equip idExecEquip="E10">(10) Apple CarPlay</exec_equip>
+            <exec_equip idExecEquip="E11">(11) Χρώμα οροφής σε μαύρο, ασημί, λευκό ή στο χρώμα του αμαξώματος
             </exec_equip>
         </executive_equip>
         </equipment>
@@ -242,13 +242,13 @@
             <equip  idBasicEquip="B84">(22) Πίσω αισθητήρας παρκαρίσματος</equip >
             </basic_equipment>
             <executive_equip>
-            <exec_equip idExecEquip="Ε12">(1) Τιμόνι με δερμάτινη επένδυση</exec_equip>
-            <exec_equip idExecEquip="Ε13">(2) Μεταλλικό χρώμα</exec_equip>
-            <exec_equip idExecEquip="Ε14">(3) Μοχλός ταχυτήτων με δερμάτινη επένδυση</exec_equip>
-            <exec_equip idExecEquip="Ε15">(4) Bluetooth®</exec_equip>
-            <exec_equip idExecEquip="Ε16">(5) Σύστημα ειδοποίησης για παρέκκλιση από τη λωρίδα κυκλοφορίας
+            <exec_equip idExecEquip="E12">(1) Τιμόνι με δερμάτινη επένδυση</exec_equip>
+            <exec_equip idExecEquip="E13">(2) Μεταλλικό χρώμα</exec_equip>
+            <exec_equip idExecEquip="E14">(3) Μοχλός ταχυτήτων με δερμάτινη επένδυση</exec_equip>
+            <exec_equip idExecEquip="E15">(4) Bluetooth®</exec_equip>
+            <exec_equip idExecEquip="E16">(5) Σύστημα ειδοποίησης για παρέκκλιση από τη λωρίδα κυκλοφορίας
             </exec_equip>
-            <exec_equip idExecEquip="Ε17">(6) Βελούδινα ταπέτα</exec_equip>
+            <exec_equip idExecEquip="E17">(6) Βελούδινα ταπέτα</exec_equip>
         </executive_equip>
         </equipment>
         <offer_include>

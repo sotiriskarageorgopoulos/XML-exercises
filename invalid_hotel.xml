@@ -12,9 +12,7 @@
             <typesOfBeds>
                 <twin>1</twin> <!--ακυρο γιατι πρωτα single και μετα twin-->
                 <single>2</single>
-                
             </typesOfBeds>
-            
             <!--ακυρο γιατι δεν υπαρχει view-->
             <prices>
                 <price period="Low Season">40</price>
@@ -122,7 +120,7 @@
     </Rooms>
     <Offers>
         <offer rooms_code="R1" offer_price="50">
-           <!--ακυρο γιατι λείπει το duration-->
+           <!--ακυρο γιατι λείπει το στοιχείο duration-->
         </offer>
         <offer rooms_code="R2 R3" offer_price="60">
             <!--ακυρο γιατι λείπει η υποχρεωτική ιδιοτητα to-->
