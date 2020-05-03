@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cars SYSTEM "./DTDs/car_rental_new.dtd">
-
+<?xml-stylesheet type="text/css" href="car_rental_new.css"?>
 <cars>
     <car no="No1">
         <manufacturer_brand>
@@ -161,7 +161,6 @@
             <payment_in_advance>
                 <amount payment_unit="euro" without_tax="false" tax="24%">2.852&#x20AC;</amount>
                 <amount payment_unit="euro" without_tax="true">2.300&#x20AC;</amount>
-                <descr></descr>
             </payment_in_advance>
             <retail_price retail_unit="euro">13.320&#x20AC;</retail_price>
             <Retail_price_before_taxes retail_bef_tax_unit="euro"> 10.422,53&#x20AC;</Retail_price_before_taxes>

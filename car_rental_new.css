@@ -1,0 +1,292 @@
+car {
+    display: block;
+    border-top: 2px solid #e61017;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+manufacturer_brand {
+    width: 8em;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+Engine:before {
+    content: "Κινητήρας: ";
+    font-weight: bold;
+    color: black;
+    margin-right: 25%;
+}
+
+Engine {
+    font-weight: lighter;
+    color: #7d806b;
+    border-bottom: 1px solid #d8dbbd;
+    display: block;
+}
+
+CO2_emissions::before {
+    content: "Εκπομπές CO2(Μικτός Κύκλος): ";
+    font-weight: bold;
+    color: black;
+    margin-right: 14%;
+}
+
+CO2_emissions {
+    font-weight: lighter;
+    color: #7d806b;
+    border-bottom: 1px solid #d8dbbd;
+    display: block;
+}
+
+Fuel_consumption:before {
+    content: 'Κατανάλωση Καυσίμου(lt/100km): ';
+    font-weight: bold;
+    color: black;
+    margin-right: 13%;
+}
+
+Fuel_consumption {
+    display: block;
+    color: #7d806b;
+    border-bottom: 1px solid #d8dbbd;
+}
+
+extra_car_info:before {
+    content: attr(mini_model_description);
+    display: block;
+    color: #474745;
+    font-size: 20px;
+}
+
+extra_car_info:after {
+    display: block;
+    content: attr(color);
+    display: block;
+    color: #474745;
+    font-size: 20px;
+}
+
+monthly_leasing:nth-child(1) {
+    display: flex;
+    background-color: #e61017;
+    color: white;
+    font-size: 35px;
+    width: 18%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+monthly_leasing:nth-child(1)::after {
+    content: "μήνα + ΦΠΑ(24%)";
+    font-size: 15px;
+    background-color: black;
+    margin-left: 20px;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+monthly_leasing:nth-child(2) {
+    display: flex;
+    background-color: #e61017;
+    color: white;
+    font-size: 35px;
+    width: 18%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+}
+
+monthly_leasing:nth-child(2)::after {
+    content: "μήνα + χωρίς ΦΠΑ";
+    font-size: 15px;
+    background-color: black;
+    margin-left: 20px;
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 10px 0px 10px;
+}
+
+amount:nth-child(1) {
+    display: flex;
+    background-color: #e61017;
+    color: white;
+    font-size: 35px;
+    width: 23%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+amount:nth-child(1)::after {
+    content: "Προκαταβολή + ΦΠΑ(24%)";
+    font-size: 15px;
+    background-color: black;
+    margin-left: 10px;
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 10px 0px 10px;
+}
+
+amount:nth-child(2) {
+    display: flex;
+    background-color: #e61017;
+    color: white;
+    font-size: 35px;
+    width: 25%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+amount:nth-child(2)::after {
+    content: "Προκαταβολή χωρίς ΦΠΑ(24%)";
+    font-size: 15px;
+    background-color: black;
+    margin-left: 10px;
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 10px 0px 10px;
+}
+
+retail_price {
+    display: flex;
+    background-color: #e61017;
+    color: white;
+    font-size: 35px;
+    width: 25%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+retail_price:after {
+    content: "Λιανική Τιμή + ΦΠΑ(24%)";
+    font-size: 15px;
+    background-color: black;
+    margin-left: 10px;
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 10px 0px 10px;
+}
+
+Retail_price_before_taxes {
+    display: flex;
+    background-color: #e61017;
+    color: white;
+    font-size: 35px;
+    width: 25%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+Retail_price_before_taxes:after {
+    content: "Λιανική Τιμή χωρίς ΦΠΑ(24%)";
+    font-size: 15px;
+    background-color: black;
+    margin-left: 10px;
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 10px 0px 10px;
+}
+
+detail_econ_info {
+    display: block;
+    background-color: #e61017;
+    color: white;
+    font-size: 15px;
+    width: 51%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+basic_equipment:before {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    content: 'Στοιχεία Βασικού Εξοπλισμού:';
+}
+
+equip {
+    display: block;
+    color: #474745;
+}
+
+offer_include:before {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    content: 'Η προσφορά περιλαμβάνει:';
+}
+
+include {
+    display: block;
+    color: #474745;
+}
+
+include:before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+executive_equip:before {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    content: 'Στοιχεία Εxecutive Εξοπλισμού:';
+}
+
+exec_equip {
+    display: block;
+    color: #474745;
+}
+
+descr {
+    background-color: #e61017;
+    color: white;
+    font-size: 15px;
+    width: 14.5%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    margin-top: 2%;
+    padding: 10px 10px 0px 10px;
+}
+payment_in_advance {
+    display: flex;
+    flex-flow:row nowrap;
+    border: 2px outset #e61017;
+}
+
+payment_in_advance:before {
+    content: "Τύποι προκαταβολής";
+    margin-top: -20px;
+    margin-left: 10px;
+    color: white;
+    background-color: #e61017;
+    height: 20px;
+    padding: 1%;
+}
+

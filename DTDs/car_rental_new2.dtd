@@ -1,0 +1,50 @@
+<!ELEMENT cars (car*)>
+<!ELEMENT car (manufacturer_brand,main_characteristics,economic_info_leasing,equipment,offer_include,rent,votes)>
+<!ELEMENT manufacturer_brand (#PCDATA | model | extra_car_info)*>
+<!ELEMENT main_characteristics (Engine | CO2_emissions | Fuel_consumption)+>
+<!ELEMENT votes (vote)*>
+<!ELEMENT economic_info_leasing (monthly_leasing+,payment_in_advance,retail_price,Retail_price_before_taxes,detail_econ_info)>
+<!ELEMENT equipment (basic_equipment,executive_equip?)>
+<!ELEMENT offer_include (include)*>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT extra_car_info EMPTY>
+<!ELEMENT Engine (#PCDATA)>
+<!ELEMENT CO2_emissions (#PCDATA)>
+<!ELEMENT Fuel_consumption (#PCDATA)>
+<!ELEMENT basic_equipment (equip+)>
+<!ELEMENT executive_equip (exec_equip+)>
+<!ELEMENT include (#PCDATA)>
+<!ELEMENT monthly_leasing (#PCDATA)>
+<!ELEMENT payment_in_advance (amount+,descr?)>
+<!ELEMENT retail_price (#PCDATA)>
+<!ELEMENT Retail_price_before_taxes (#PCDATA)>
+<!ELEMENT detail_econ_info (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT descr (#PCDATA)>
+<!ELEMENT equip (#PCDATA)>
+<!ELEMENT exec_equip (#PCDATA)>
+<!ELEMENT vote (name,stars,comment?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT stars (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT rent EMPTY>
+<!ATTLIST rent private_citizen (yes|no) #REQUIRED
+               company (yes|no) #REQUIRED>
+<!ATTLIST extra_car_info mini_model_description CDATA #IMPLIED
+                         color CDATA #REQUIRED>
+<!ATTLIST car no ID #REQUIRED
+              polution_indicator (1|2|3|4|5) #IMPLIED>
+<!ATTLIST CO2_emissions em_unit CDATA  #REQUIRED
+                        mixed_cycle (yes|no) "no">
+<!ATTLIST Fuel_consumption unit_fuel CDATA #REQUIRED
+                           mixed_cycle (yes|no) "no">
+<!ATTLIST monthly_leasing leasing_unit CDATA #REQUIRED
+                          without_tax (true|false) #REQUIRED
+                          tax CDATA #IMPLIED>
+<!ATTLIST amount  payment_unit CDATA #REQUIRED
+                  without_tax (true|false) #REQUIRED
+                  tax CDATA #IMPLIED>
+<!ATTLIST retail_price retail_unit CDATA #REQUIRED>
+<!ATTLIST Retail_price_before_taxes retail_bef_tax_unit CDATA #REQUIRED>
+<!ATTLIST equip idBasicEquip ID #REQUIRED>
+<!ATTLIST exec_equip idExecEquip ID #REQUIRED>
