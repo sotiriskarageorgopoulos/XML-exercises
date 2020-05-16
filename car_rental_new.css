@@ -69,6 +69,10 @@ extra_car_info:after {
     font-size: 20px;
 }
 
+monthly_leasing::before {
+    content: "\20AC\00a0";
+}
+
 monthly_leasing:nth-child(1) {
     display: flex;
     background-color: #e61017;
@@ -111,6 +115,10 @@ monthly_leasing:nth-child(2)::after {
     width: 100%;
     border-radius: 25px;
     padding: 10px 10px 0px 10px;
+}
+
+amount::before {
+    content: "\20AC\00a0";
 }
 
 amount:nth-child(1) {
@@ -174,6 +182,10 @@ retail_price {
     margin-top: 2%;
 }
 
+retail_price::before {
+    content: "\20AC\00a0";
+}
+
 retail_price:after {
     content: "Λιανική Τιμή + ΦΠΑ(24%)";
     font-size: 15px;
@@ -195,6 +207,10 @@ Retail_price_before_taxes {
     margin-bottom: 2%;
     border-radius: 25px;
     margin-top: 2%;
+}
+
+Retail_price_before_taxes::before {
+    content: "\20AC\00a0";
 }
 
 Retail_price_before_taxes:after {
