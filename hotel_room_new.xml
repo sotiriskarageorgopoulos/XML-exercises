@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
-<!-- <?xml-stylesheet text="text/xsl" href="./XSLs/room_present1.xsl" ?> -->
-<!-- <?xml-stylesheet text="text/xsl" href="./XSLs/room_present2.xsl" ?> -->
+<!DOCTYPE Hotel SYSTEM "./DTDs/hotel_new.dtd" []>
 <Hotel nameOfHotel="Thanos Village" stars="4">
     <Rooms>
         <Room idRoom="R1">
@@ -20,6 +17,9 @@ xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
             </comforts>
             <prices>
             </prices>
+            <images>
+                <image src="room1" />
+            </images>
         </Room>
         <Room idRoom="R2">
             <nameOfRoom suite="yes" floor="4" wifi="no">Priapos</nameOfRoom>
@@ -39,6 +39,9 @@ xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
                 <price period="High Season">90</price>
                 <price period="Medium Season">65</price>
             </prices>
+            <images>
+                <image src="room2" />
+            </images>
         </Room>
         <Room idRoom="R3">
             <nameOfRoom suite="no" floor="1" wifi="yes">Estia</nameOfRoom>
@@ -59,6 +62,9 @@ xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
                 <price period="High Season">70</price>
                 <price period="Medium Season">50</price>
             </prices>
+            <images>
+                <image src="room3" />
+            </images>
         </Room>
         <Room idRoom="R4">
             <nameOfRoom suite="no" floor="2" wifi="yes">Deus</nameOfRoom>
@@ -78,6 +84,9 @@ xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
                 <price period="High Season">80</price>
                 <price period="Medium Season">65</price>
             </prices>
+            <images>
+                <image src="room4" />
+            </images>
         </Room>
         <Room idRoom="R5">
             <nameOfRoom suite="yes" floor="3" wifi="yes">Yra</nameOfRoom>
@@ -98,6 +107,9 @@ xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
                 <price period="High Season">60</price>
                 <price period="Medium Season">45</price>
             </prices>
+            <images>
+                <image src="room5"/>
+            </images>
         </Room>
         <Room idRoom="R6">
             <nameOfRoom suite="yes" floor="5" wifi="yes">Aphrodite</nameOfRoom>
@@ -119,6 +131,9 @@ xsi:noNamespaceSchemaLocation="Schema/hotel.xsd" -->
                 <price period="Medium Season">75</price>
                 <price period="Low Season">45</price>
             </prices>
+            <images>
+                <image src="room6"/>
+            </images>
         </Room>
     </Rooms>
     <Offers>
